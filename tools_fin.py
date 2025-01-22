@@ -15,7 +15,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv() 
 
-groq_key = "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"  # Ensure this is set in your .env file
+groq_key = "key"  # Ensure this is set in your .env file
 
 llm = ChatGroq(groq_api_key=groq_key, model="llama3-8b-8192") 
 

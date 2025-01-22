@@ -13,8 +13,7 @@ from datetime import date, time
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
-# gemini_key = "AIzaSyAMarfRWyHweUZMsUS1ZJSGpPk-wXPKL7c"
-# gemini_key = "AIzaSyD3QqFNBKYvkfqr8tpLaQ2eekKrH0Kgpd8"
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 llm = ChatGoogleGenerativeAI(
